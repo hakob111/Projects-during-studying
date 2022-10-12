@@ -51,7 +51,7 @@ def get_random_word(wordlist) -> str:
     return words[word_index]
 
 
-# Displays hangman , guessed letters and incorrect letters
+# Displays hangman_oop , guessed letters and incorrect letters
 def display_bord(missed_letters, correct_letters, secret_word):
     print(hangman_pics[len(missed_letters)])
     print()
