@@ -1,0 +1,25 @@
+: Who shot faster?
+Two participants p1 and p2 are dueling.
+
+Write a function whos_first that takes two strings and returns the name of the player who fired first.
+
+If the players fired at the same time, then return the string "tie".
+
+Call and return examples:
+whos_first(
+ "   Bang!        ",
+ "        Bang!   "
+) ➞ "p1"
+# p1 стреляет быстрее p2
+whos_first(
+ "               Bang! ",
+ "             Bang!   "
+) ➞ "p2"
+whos_first(
+ "     Bang!   ",
+ "     Bang!   "
+) ➞ "tie"
+
+Note:
+
+transmitted strings - can be of different lengths! (that is, contain a different number of spaces)
