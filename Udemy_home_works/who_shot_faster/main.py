@@ -12,11 +12,11 @@ def whos_first(p1, p2):
         if z != '':
             break
         count2 += 1
-    if count1 &lt; count2:
+    if count1 < count2:
         print (p1)
         print (p2)
         return ('p1')
-    elif count1 &gt; count2:
+    elif count1 > count2:
         print (p1)
         print (p2)
         return ('p2')
