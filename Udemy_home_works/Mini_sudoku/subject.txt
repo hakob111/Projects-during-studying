@@ -1,0 +1,15 @@
+Mini Sudoku
+Write a function any_duplicates that takes a 3x3 2D array (9 elements).
+The two-dimensional array is filled with numbers from 1 to 9.
+
+The function must return False if all numbers from 1 to 9 occur exactly once in the array.
+Otherwise True.
+
+Call examples.
+
+any_duplicates([[1, 3, 2], [9, 7, 8], [4, 5, 6]]) ➞ False
+any_duplicates([[8, 9, 2], [5, 6, 1], [3, 7, 4]]) ➞ False
+any_duplicates([[1, 1, 3], [6, 5, 4], [8, 7, 9]]) ➞ True
+1 - duplicated
+any_duplicates([[1, 2, 3], [3, 4, 5], [9, 8, 7]]) ➞ True
+3 - duplicated

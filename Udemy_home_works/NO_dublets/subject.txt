@@ -1,0 +1,24 @@
+No doublets!
+We play dice. The rules are as follows:
+
+1. Throw a couple of bones.
+
+2. Add up the number of numbers drawn and add to the total number of points
+
+3. Repeat steps 1 and 2 three times.
+
+4. If a doublet falls out (the same number on both dice), then the number of points is reset to zero and subsequent rolls are not counted.
+
+Exercise:
+
+Write a calc_dice_scores function that takes a list of tuples and returns the total score.
+
+Call examples and expected result.
+
+calc_dice_scores ([(1, 2), (3, 4), (5, 6)]) ➞ 21
+ 
+calc_dice_scores ([(1, 1), (5, 6), (6, 4)]) ➞ 0
+ 
+calc_dice_scores ([(4, 5), (4, 5), (4, 5)]) ➞ 27
+
+Three tuples of two elements each are always passed.
